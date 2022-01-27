@@ -2,9 +2,34 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BMI Calculator</title>
+    <script
+      src="https://kit.fontawesome.com/1935d064dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
-  <body></body>
+
+  <body>
+    <div class="container">
+      <h1>BMI Calculator</h1>
+      <hr />
+      <form action="">
+        <div>
+          <label for="">Height (in cm)</label>
+          <input type="text" class="height" />
+        </div>
+        <div>
+          <label for="">Weight (in kg)</label>
+          <input type="text" class="weight" />
+        </div>
+        <button class="btn-calculate">Calculate</button>
+      </form>
+      <p class="result"></p>
+      <button class="btn-reset">Reset</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>
